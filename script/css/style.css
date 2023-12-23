@@ -1,0 +1,133 @@
+body,
+html {
+  background-color: #505050;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: Fira Sans;
+}
+
+header {
+  background-color: #505050;
+  width: 100%;
+  height: 118px;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  color: #fff;
+}
+
+.imgParaq2 {
+  width: 100%;
+  height: 634px;
+  overflow: hidden;
+}
+
+#textoParaq2 {
+  position: absolute;
+  font-size: 64px;
+  left: 164px;
+  top: 250px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px 0;
+  margin: 0 164px 0 0;
+  font-size: 16px;
+}
+
+.textoOqESG {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-right: 163px;
+  margin-left: 163px;
+  border: 1px solid #00ff37;
+  display: inline-block; /* Faz com que a div se ajuste ao conteúdo interno */
+  padding: 10px; /* Adicione preenchimento para afastar a borda do texto */
+}
+
+.underlineOqESG {
+  background-color: #ffd71a;
+  width: 400px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.textoConsultESG {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-right: 163px;
+  margin-left: 163px;
+  border: 1px solid #00ff37;
+}
+
+.espacador {
+  background: #1d1d1d;
+  width: 1268px;
+  height: 4px;
+  flex-shrink: 0;
+  margin: 80px auto; /* Adicione margem superior e inferior igual para centralizar */
+  border-radius: 90px;
+}
+
+.underlineConsultESG {
+  background-color: #ffd71a;
+  width: 272px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.impactos {
+  background: #087f8c;
+  width: auto;
+  height: 445px;
+  border: 1px solid #00ff37;
+}
+
+footer {
+  background-color: #087f8c;
+  width: auto;
+  height: 190px;
+  text-align: center;
+  margin-top: 77px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer td {
+  padding: 8px; /* Ajuste conforme necessário */
+}
