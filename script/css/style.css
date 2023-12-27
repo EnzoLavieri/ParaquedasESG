@@ -1,10 +1,12 @@
-body,
-html {
-  background-color: #505050;
-  height: auto;
+* {
   margin: 0;
   padding: 0;
   font-family: Fira Sans;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #505050;
 }
 
 header {
@@ -55,21 +57,30 @@ table {
   margin-bottom: auto;
   margin-right: 163px;
   margin-left: 163px;
-  border: 1px solid #00ff37;
   display: inline-block; /* Faz com que a div se ajuste ao conteúdo interno */
   padding: 10px; /* Adicione preenchimento para afastar a borda do texto */
 }
 
 .underlineOqESG {
   background-color: #ffd71a;
-  width: 400px;
+  width: 380px;
   height: 3px;
   display: flex;
   margin: 0 auto;
   border-radius: 90px;
 }
 
-.textoConsultESG {
+.underlinePqContratar {
+  background-color: #ffd71a;
+  width: 500px;
+  height: 3px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.textoConsultESG,
+.pqContratar {
   display: flex;
   width: auto;
   height: auto;
@@ -87,7 +98,6 @@ table {
   margin-bottom: auto;
   margin-right: 163px;
   margin-left: 163px;
-  border: 1px solid #00ff37;
 }
 
 .espacador {
@@ -111,7 +121,131 @@ table {
   background: #087f8c;
   width: auto;
   height: 445px;
-  border: 1px solid #00ff37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.titRec {
+  text-align: center;
+  font-size: 40px;
+}
+
+.recAmarelo {
+  background: #ffd71a;
+  width: 405px;
+  height: 99px;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.numeros1,
+.numeros2,
+.numeros3 {
+  color: #ffd71a;
+  font-size: 96px;
+  margin-top: -240px;
+}
+
+.infoNumeros1,
+.infoNumeros3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.infoNumeros2 {
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 32px;
+}
+
+.tamanhoFonte1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 37px; /**/
+  text-align: center;
+}
+/*color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;*/
+
+.tamanhoFonte2 {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+/*color: #FFF;
+font-family: Fira Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;*/
+
+/*por enquanto nao consesegui 
+deixar as duas linhas centra-
+lizadas e com o tamanho, mas 
+acho q vai alargar muito o espacador
+para fazer caber as informacoes e vai
+deixar o resto estranho, relatar depois 
+para o Henrique e Kellen*/
+
+.espacadorImpac1,
+.espacadorImpac2,
+.espacadorImpac3 {
+  width: 400px;
+  height: 11px;
+  background-color: #ffd71a;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 100px;
+}
+
+.espacadores {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+  bottom: 0;
+}
+.espacadores > * {
+  margin-bottom: 28px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  height: 400px; /* Altura desejada (ajuste conforme necessário) */
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 60px;
+}
+
+.nossosClientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%; /* Altura desejada (ajuste conforme necessário) */
+}
+
+.nossosClientes img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer {
@@ -124,7 +258,7 @@ footer {
 
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
